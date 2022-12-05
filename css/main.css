@@ -460,20 +460,20 @@ figcaption {
     border-radius: 20px;
 }
 
-/* ============================   portfolio   ===========================================*/
-#portfolioo{
+/* ============================   luck  ===========================================*/
+#luck{
     
     /*! margin: 0 auto; */
 }
-#portfolioo .wrap{    
+#luck .wrap{    
     overflow: visible;
     margin: 0 auto;
 }
-#portfolioo ul{    
+#luck ul{    
     margin: 0 auto;
     text-align: center;
 }
-#portfolioo ul li{
+#luck ul li{
     
 }
 .slick-slide{
@@ -482,7 +482,7 @@ figcaption {
 .slick-list{
     margin: 0 auto;
 }
-#portfolioo ul img{    
+#luck ul img{    
     margin: 0 auto;
 }
 .slick-prev, .slick-nex{
