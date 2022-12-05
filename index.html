@@ -37,6 +37,7 @@
                         $(".aside").toggleClass("asideShow");
                         return false;
                     });
+                // portfolio 클릭시 사이트 소개 및 닫기 아이콘추가 
                 $("#portfolio .wrap3 .contents figcaption p,figcaption a").hide();
                 $("#portfolio .wrap3 .contents figure").click(
                     function () {
@@ -62,6 +63,7 @@
                         });
                     }
                 );
+                // top-light 클릭
                 $("#skill background-img").click(
                     function () {
                         $("#skill background-img").wrapInner("<a href=''></a>");
@@ -122,7 +124,9 @@
         $(document).ready(
             function () {
                 $('.portani').slick({
-                dots: true,
+                dots: false,
+                fade: true,
+                arrows:false,
 				slidesToShow: 1,
 				slidesToScroll: 1,
 			    speed:1300, 
@@ -196,10 +200,10 @@
         <section id="portfolioo">
             <div class="wrap">
                 <ul class="portani">
-                    <li><img src="img/luck plant-1.PNG" alt=""></li>
-                    <li><img src="img/luck plant-2.PNG" alt=""></li>
-                    <li><img src="img/luck plant-3.PNG" alt=""></li>
-                    <li><img src="img/luck plant-4.PNG" alt=""></li>
+                    <li><img src="img/luck plant-1.PNG" alt="">자아</li>
+                    <li><img src="img/luck plant-2.PNG" alt="">개발</li>
+                    <li><img src="img/luck plant-3.PNG" alt="">계속</li>
+                    <li><img src="img/luck plant-4.PNG" alt="">성장하고 있습니다.</li>
                 </ul>
             </div>
         </section>
