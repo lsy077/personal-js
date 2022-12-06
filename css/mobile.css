@@ -1,7 +1,7 @@
 @media screen and (max-width:768px){
 /*  =========================================== title ==========================================================  */
 #title{height: 600px;}
-  .wrap{    
+#title .wrap{    
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,9 +43,15 @@ header{
   }
   header .wrap h1 a{left: 20px;}
  /*  ========================================== main ==========================================================  */
-#main{}
+#main{
+  }
+  /*  ========================================== luck ==========================================================  */
+  #luck{margin: 0 auto;}  
+  .portani{
+    
+  }
 /*  ========================================== about ==========================================================  */
-  #about{
+    #about{
     width: 100%;
     height: 500px;
   }
@@ -79,13 +85,11 @@ header{
   #about h2 a{
     
   }
-  #about h2 strong{
-    
+  #about h2 strong{    
   font-size: 80px;
   }
 /* ---------------------------------------------skill------------------------------------------------ */
-#skill {    
-  
+#skill {      
 }
 #top_light{    
   width: 30px;
@@ -215,8 +219,7 @@ header{
 #skill .js ul li {}
 
 /* =============================portfolio=================================== */
-#portfolio {
-    
+#portfolio {    
   width: 90%;
   height: 140%;
 }
@@ -266,13 +269,11 @@ header{
 
 }
 
-.wrap3 h2 {
- 
+.wrap3 h2 { 
   text-align: left;
   margin-left: 50px;
 }
-.wrap3 h2 strong{
-   
+.wrap3 h2 strong{   
   font-size: 80px;
 }
 figure {   
@@ -293,15 +294,12 @@ figure:hover >div::before{
 .center figure:hover >div::before{
    
 }
-figure:hover{
-   
+figure:hover{   
 }
-#portfolio figure figcaption {
-    
+#portfolio figure figcaption {    
   font-size: 15px;
 }
-#portfolio .center figure figcaption {
-    
+#portfolio .center figure figcaption {    
 }
 figcaption {
 }

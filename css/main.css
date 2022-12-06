@@ -3,7 +3,6 @@ main {
     width: 1200px;
     margin: 0 auto;
 }
-
 .me {
     display: flex;
     justify-content: center;
