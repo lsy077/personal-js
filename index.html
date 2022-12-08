@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/footer.css">
-  
     <!-- 구글 폰 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +24,13 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- <script src="js/jquery-1.6.2.min.js"></script> -->
     <script type="text/javascript">
@@ -84,8 +90,9 @@
                 var c2p = $("#skill").offset().top;
                 var c3p = $("#portfolio").offset().top;
                 var c4p = $("#foot").offset().top;
+                console.log(c1p);
                 $(".c1").click(function () {
-                    $("html,body").animate({ scrollTop: c1p }, 2000);
+                    $("html,body").animate({ scrollTop: c1p }, 2000); 
                     return false;
                 });
                 $(".c2").click(function () {
@@ -100,11 +107,16 @@
                     $("html,body").animate({ scrollTop: c4p }, 2000);
                     return false;
                 });
+                $(".top").click(function(){
+                    $("html,body").animate({ scrollTop: 0 }, 2000);
+                    return false;
+                });
             });
-    </script>
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    </script> 
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
         .material-symbols-outlined {
             font-variation-settings:
                 'FILL' 0,
@@ -115,17 +127,14 @@
             margin-left: 20px;
         }
     </style>
-    <!-- // slick링크 -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="slick/slick-theme.css" />
+    <!-- // slick링크 -->    
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <!-- // slick style 지정안 하도 자동으로 수평배치하고 좌우 이동할 수 있음-->
     <script>
         $(document).ready(
             function () {
                 $('.portani').slick({
-                    dots: false,                    
+                    dots: false,
                     arrows: false,
                     fade: true,
                     slidesToShow: 1,
@@ -136,9 +145,9 @@
                 });
             });
     </script>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mobile.css">
+    
 </head>
+
 <body>
     <!--  상단영역 -->
     <header>
@@ -206,7 +215,7 @@
                 <li><img src="img/luck plant-4.PNG" alt="">성장하고 있습니다.</li>
             </ul>
         </div>
-    </section>    
+    </section>
     <!-- ABOUT ME -->
     <section id="about">
         <div class="wrap0">
@@ -225,7 +234,7 @@
                 </ul>
             </div>
         </div>
-    </section>    
+    </section>
     <!-- SKILL -->
     <section id="skill">
         <div id="top_light">

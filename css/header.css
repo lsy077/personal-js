@@ -39,11 +39,11 @@ header .wrap h1 a {
   left: 200px;
   top: 10px;
   transition: all 0.5s;
-  animation-name: por;
+/*   animation-name: por;
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-direction: alternate;
+  animation-direction: alternate; */
   /* 와다가 또 다시 들어가게 */
   color: #5fb0df;
 }
@@ -54,25 +54,48 @@ header .wrap h1 a {
   left: 250px;
   color: yellow;
   perspective: 217px;
-
+  transition: all 0.5s;
+  animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump2 {
   position: absolute;
   left: 444px;
   top: 150px;
+  transition: all 0.5s;
+   animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump3 {
   position: absolute;
   left: 61px;
   top: 200px;
+  transition: all 0.5s;
+   animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump4 {
   position: absolute;
   left: 290px;
   top: 294px;
+  transition: all 0.5s;
+  animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump5 {
@@ -80,30 +103,60 @@ header .wrap h1 a {
   left: 106px;
   top: 470px;
   color: yellow;
+  transition: all 0.5s;
+   animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump6 {
   position: absolute;
   left: 275px;
   top: 611px;
+  transition: all 0.5s;
+   animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump7 {
   position: absolute;
   left: 468px;
   top: 448px;
+  transition: all 0.5s;
+   animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump8 {
   position: absolute;
   left: 460px;
   top: 700px;
+  transition: all 0.5s;
+   animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .jump9 {
   position: absolute;
   left: 137px;
   top: 790px;
+  transition: all 0.5s;
+   animation-name: por;
+   animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 @keyframes por {
